@@ -1,0 +1,22 @@
+# Конфигурационный файл Rubocop
+
+# Файл был получен командой "rubocop --auto-gen-config"
+# inherit_from: .rubocop_todo.yml
+
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+# SupportedStyles: native, lf, crlf
+Layout/EndOfLine:
+  SupportedStyles: native
+
+Metrics/AbcSize:
+  Max: 24
+
+# Configuration parameters: CountComments.
+Metrics/MethodLength:
+  Max: 12
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
